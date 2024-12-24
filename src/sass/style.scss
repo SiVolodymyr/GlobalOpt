@@ -1,0 +1,75 @@
+@import 'libs/bootstrap-reboot.min';
+@import 'libs/font';
+
+:root {
+    --main_color: #ec644b;
+    --main_color_2: #25333c;
+}
+
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.container {
+    margin: 0 auto;
+    width: 1140px;
+    position: relative;
+}
+
+.divider {
+    margin: 20px auto 0 auto;
+    width: 145px;
+    height: 2px;
+    background-color: var(--main_color);
+}
+
+.circle {
+    position: relative;
+    width: 100px;
+    height: 100px;
+    margin-bottom: 10px;
+    border: 1px solid #fff;
+    border-radius: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 5;
+
+    &_b {
+        margin-top: 15px;
+        border: 1px solid var(--main_color);
+        z-index: -1;
+    }
+
+    &_w {
+        position: absolute;
+        width: 120px;
+        height: 120px;
+        left: 50%;
+        transform: translateX(-50%);
+        top: 40px;
+        background-color: #fff;
+        z-index: -2;
+    }
+}
+
+@import 'blocks/promo';
+@import 'blocks/buttons';
+@import 'blocks/advantages';
+@import 'blocks/title';
+@import 'blocks/shipping';
+@import 'blocks/china';
+@import 'blocks/prices';
+@import 'blocks/consultation';
+@import 'blocks/manager';
+@import 'blocks/scheme';
+@import 'blocks/carousel';
+@import 'blocks/question';
+@import 'blocks/map';
+@import 'blocks/footer';
+@import 'blocks/modal';
+@import 'blocks/forms';
+@import 'blocks/pageup';
+@import 'blocks/media';

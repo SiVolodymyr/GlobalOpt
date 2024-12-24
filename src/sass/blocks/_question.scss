@@ -1,0 +1,112 @@
+.question {
+    padding: 62px 0 76px 0;
+    background: url(../../img/question_bg.jpg) center (center / cover) no-repeat;
+
+    &__block {
+        margin: 0 auto;
+    }
+
+    &__head {
+        margin: 0 auto;
+        width: 895px;
+        height: 67px;
+        background-color: var(--main_color_2);
+    }
+
+    &__title {
+        padding-top: 10px;
+        font-weight: 700;
+        font-size: 19px;
+        text-align: center;
+        color: #fff;
+    }
+
+    &__subtitle {
+        font-weight: 400;
+        font-size: 14px;
+        text-align: center;
+        color: #fff;
+    }
+
+    &__bottom {
+        margin: 0 auto;
+        padding-top: 15px;
+        width: 895px;
+        height: 270px;
+        background-color: rgba($color: #fff, $alpha: .7)
+    }
+
+    &__forms {
+        position: relative;
+        margin: 0 auto 20px auto;
+        width: 815px;
+        height: 123px;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: 70px 100px;
+        justify-content: space-between;
+        align-content: space-between;
+
+        input {
+            height: 45px;
+            padding-left: 30px;
+            border-radius: 50px 50px / 50px 50px;
+            border: 1px solid rgba($color: #000000, $alpha: .3);
+        }
+
+        textarea {
+            padding: 10px 0 0 30px;
+            border: 1px solid rgba($color: #000000, $alpha: .3);
+            border-radius: 10px;
+        }
+
+        #name {
+            &-error {
+                position: absolute;
+                top: 46px;
+                font-size: 14px;
+            }
+        }
+
+        #phone {
+            &-error {
+                position: absolute;
+                top: 46px;
+                left: 275px;
+                font-size: 14px;
+            }
+        }
+
+        #email {
+            &-error {
+                position: absolute;
+                top: 46px;
+                right: 67px;
+                font-size: 14px;
+            }
+        }
+
+        #text {
+            &-error {
+                position: absolute;
+                top: 170px;
+                left: 0;
+                font-size: 14px;
+            }
+        }
+    }
+
+    #text {
+        grid-row: 2;
+        grid-column: 1/4;
+    }
+
+    #question_button {
+        grid-column: 2;
+    }
+
+    .button {
+        display: block;
+        margin: 25px auto 0 auto;
+    }
+}

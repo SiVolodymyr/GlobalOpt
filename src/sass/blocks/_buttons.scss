@@ -1,0 +1,31 @@
+.button {
+    min-width: 160px;
+    max-width: 213px;
+    height: 45px;
+    padding: 0 25px;
+    border-radius: 15% 15% / 50% 50%;
+    background-color: var(--main_color);
+    font-size: 12px;
+    font-weight: 400;
+    color: #fff;
+    cursor: pointer;
+    border: none;
+    transition: all .5s;
+    text-transform: uppercase;
+    z-index: 0;
+
+    &:hover {
+        background-color: rgba($color: #ec644b, $alpha: 0.7);
+    }
+
+    &_big {
+        width: 230px;
+        height: 58px;
+        font-weight: 700;
+        font-size: 15px;
+    }
+
+    &_submit {
+        margin: 25px auto 0 auto;
+    }
+}

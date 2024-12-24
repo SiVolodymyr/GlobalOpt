@@ -1,0 +1,53 @@
+@font-face {
+    font-family: 'Roboto';
+    font-display: swap;
+    src: local('Roboto 300'), local('Roboto-300'),
+        url('../../fonts/Roboto-Light.ttf') format('ttf');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    font-display: swap;
+    src: local('Roboto 400'), local('Roboto-400'),
+        url('../../fonts/Roboto-Regular.ttf') format('ttf');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    font-display: swap;
+    src: local('Roboto 500'), local('Roboto-500'),
+        url('../../fonts/Roboto-Medium.ttf') format('ttf');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    font-display: swap;
+    src: local('Roboto 700'), local('Roboto-700'),
+        url('../../fonts/Roboto-Bold.ttf') format('ttf');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'RobotoCondensed';
+    font-display: swap;
+    src: local('RobotoCondensed 400'), local('RobotoCondensed-400'),
+        url('../../fonts/RobotoCondensed-Regular.ttf') format('ttf');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'RobotoCondensed';
+    font-display: swap;
+    src: local('RobotoCondensed 700'), local('RobotoCondensed-700'),
+        url('../../fonts/RobotoCondensed-Bold.ttf') format('ttf');
+    font-weight: 700;
+    font-style: normal;
+}
